@@ -87,8 +87,8 @@ const findOne = async (req, res) => {
       const naverFiltered = {
         _id,
         name,
-        birthdate: moment(birthdate).format('DD-MM-YYYY'),
-        admission_date: moment(admission_date).format('DD-MM-YYYY'),
+        birthdate: moment(birthdate).format('YYYY-MM-DD'),
+        admission_date: moment(admission_date).format('YYYY-MM-DD'),
         job_role,
         projects: projectsFiltered,
       };
