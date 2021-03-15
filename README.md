@@ -48,7 +48,7 @@ Se optar por utilizar a partir da primeira opção, é necessário instalar as d
         "job_role": String, 
         "projects: [{_id:String},] // espera _id dos projetos
     }
- <div style="display:flex,flex-direction:row, align-items:center, justify-content:space-between,align-content: center">   
+ <div style="display:flex,flex-direction:row, align-items:center, justify-content:space-between,align-self: center">   
 <img width="300px" src="https://user-images.githubusercontent.com/22081873/111227349-30de7600-85c1-11eb-8e67-3826c8b9b97d.png"/>
 <img width="300px" src="https://user-images.githubusercontent.com/22081873/111227231-042a5e80-85c1-11eb-9281-1473fda3023f.png"/>
 </div>
