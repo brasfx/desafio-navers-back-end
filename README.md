@@ -41,7 +41,21 @@ Se optar por utilizar a partir da primeira opção, é necessário instalar as d
         "birthdate": Date, //formato de Date: YYYY-MM-DD
         "admission_date": Date, //formato de Date: YYYY-MM-DD
         "job_role": String, 
-        "projects: [{_id:String},]
+        "projects: [{_id:String},] // espera _id dos projetos
     }
     
-   * Projetos não são obrigatórios
+  
+   </br>
+   
+<h3>Projects:</h3>
+<strong>GET</strong> /projects/index (retorna todos os projetos).</br>
+
+<strong>GET</strong> /projects/show/:id (retorna um único projeto a partir da passagem do id).</br>
+
+<strong>POST</strong> /projects/store (cadastra um projeto e retorna um JSON com o conteudo inserido no banco.)
+
+    {
+        "name": String,
+        "navers": [{_id: String},] // espera _id dos navers
+    }
+   
