@@ -48,16 +48,20 @@ Se optar por utilizar a partir da primeira opção, é necessário instalar as d
         "job_role": String, 
         "projects: [{_id:String},] // espera _id dos projetos
     }
- <div style="display:flex,flex-direction:row, align-items:center, justify-content:space-between,align-self: center">   
+    //cabeçalho de inserção
+  
 <img width="300px" src="https://user-images.githubusercontent.com/22081873/111227349-30de7600-85c1-11eb-8e67-3826c8b9b97d.png"/>
 <img width="300px" src="https://user-images.githubusercontent.com/22081873/111227231-042a5e80-85c1-11eb-9281-1473fda3023f.png"/>
-</div>
    </br>
    
 <h3>Projects:</h3></br>
 <strong>GET</strong> /projects/index (retorna todos os projetos).</br></br>
 
+<img width="300px" src="https://user-images.githubusercontent.com/22081873/111228186-8b2c0680-85c2-11eb-857b-40aa1da43b08.png"/>
+
 <strong>GET</strong> /projects/show/:id (retorna um único projeto a partir da passagem do id).</br>
+
+<img width="300px" src="https://user-images.githubusercontent.com/22081873/111228253-a39c2100-85c2-11eb-9090-3feb42af5c9e.png"/>
 
 <strong>POST</strong> /projects/store (cadastra um projeto e retorna um JSON com o conteudo inserido no banco.)
 
@@ -65,7 +69,12 @@ Se optar por utilizar a partir da primeira opção, é necessário instalar as d
         "name": String,
         "navers": [{_id: String},] // espera _id dos navers
     }
+    //cabeçalho de inserção
    
+
+<img width="300px" src="https://user-images.githubusercontent.com/22081873/111228288-b7478780-85c2-11eb-9c47-83161bc27e18.png"/>
+<img width="300px" src="https://user-images.githubusercontent.com/22081873/111228346-cf1f0b80-85c2-11eb-8d5e-b94c736b4683.png"/>
+
 </br>
 <ul>
 <li>Todas as respostas são retornadas e visualizadas pelo usuário como um objeto JSON contendo os dados, de acordo a formatação esperada de acordo enunciado do desafio.</li>
