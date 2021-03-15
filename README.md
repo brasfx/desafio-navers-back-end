@@ -47,7 +47,7 @@ Se optar por utilizar a partir da primeira opção, é necessário instalar as d
   
    </br>
    
-<h3>Projects:</h3>
+<h3>Projects:</h3></br>
 <strong>GET</strong> /projects/index (retorna todos os projetos).</br>
 
 <strong>GET</strong> /projects/show/:id (retorna um único projeto a partir da passagem do id).</br>
@@ -59,3 +59,5 @@ Se optar por utilizar a partir da primeira opção, é necessário instalar as d
         "navers": [{_id: String},] // espera _id dos navers
     }
    
+</br>
+*Todas as respostas são mostradas ao usuário como um objeto JSON contendo os dados, de acordo a formatação esperada de acordo enunciado do desafio.
