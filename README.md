@@ -23,18 +23,18 @@ API RESTfull criada para a vaga de estágio backend da Nave.rs, que há como des
 <h2>Instruções para uso da API</h2>
 É possivel testar a API de duas maneiras distintas:</br>
 1° - realizando clone ou download o repositorio e executando o projeto localmente.</br>
-2° - consumir a API no Insomnia (ou semelhantes) ou navegador através do link cedido em Navers API.
+2° - consumir a API no Insomnia (ou semelhantes) ou navegador através do link cedido em <a href="https://navers-api.herokuapp.com/" traget="_blank">Navers API</a>.
 </br>
 Se optar por utilizar a partir da primeira opção, é necessário instalar as dependências do projeto com yarn ou npm  e após executar com  npm start ou yarn start.
 </br>
 <h2>Endpoints da API</h2>
 </br>
 <h3>Navers:</h3></br>
-<strong>GET</strong>/navers/index (retorna todos os navers).<br>
+<strong>GET</strong> /navers/index (retorna todos os navers).<br>
 
-GET /navers/show/:id (retorna um único navers a partir da passagem do id).</br>
+<strong>GET</strong> /navers/show/:id (retorna um único navers a partir da passagem do id).</br>
 
-POST /navers/store (cadastra um navers e retorna um JSON com o conteudo inserido no banco.)
+<strong>POST</strong> /navers/store (cadastra um navers e retorna um JSON com o conteudo inserido no banco.)
 
     {
         "name": String, 
