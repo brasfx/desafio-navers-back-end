@@ -18,7 +18,7 @@ const create = async (req, res) => {
       projects,
     });
 
-    await ProjectModel.updateOne(
+    await ProjectModel.updateMany(
       { projects: projects._id },
       { $push: { navers: [dev._id] } }
     );
@@ -27,7 +27,7 @@ const create = async (req, res) => {
 
     res.send(dev);
 
-    logger.info(`POST /navers - ${JSON.stringify(dev)}`);
+    logger.info(`POST /navers - ${JSON.stringify(dev._id)}`);
   } catch (error) {
     res.status(500).send({
       message: error.message || 'Ocorreu um erro ao salvar o usuário!',
