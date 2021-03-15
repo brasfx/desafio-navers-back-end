@@ -60,4 +60,4 @@ Se optar por utilizar a partir da primeira opção, é necessário instalar as d
     }
    
 </br>
-*Todas as respostas são mostradas ao usuário como um objeto JSON contendo os dados, de acordo a formatação esperada de acordo enunciado do desafio.
+* Todas as respostas são mostradas ao usuário como um objeto JSON contendo os dados, de acordo a formatação esperada de acordo enunciado do desafio.
