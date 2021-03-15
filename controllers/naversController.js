@@ -18,7 +18,7 @@ const create = async (req, res) => {
       projects,
     });
 
-    await ProjectModel.updateMany(
+    await ProjectModel.updateOne(
       { projects: projects._id },
       { $push: { navers: [dev._id] } }
     );
