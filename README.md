@@ -20,6 +20,10 @@ API RESTfull criada para a vaga de estágio backend da Nave.rs, que há como des
   <li>Insomnia</li>
 </ul>
 </br>
+<h2>Documentação</h2>
+É possivel ter acesso a documentação da API gerada pelo Insomnia, clicando no botão abaixo.</br>
+<a href="https://insomnia.rest/run/?label=Navers%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fbrasfx%2Fdesafio-navers-back-end%2Fmain%2FInsomnia_documenter.json%3Ftoken%3DAFIPCULNCQYCOAI33TTNURDALEMSU" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</br>
 <h2>Instruções para uso da API</h2>
 É possivel testar a API de duas maneiras distintas:</br>
 1° - realizando clone ou download o repositorio e executando o projeto localmente.</br>
